@@ -1,0 +1,136 @@
+.gallery1{
+   object-fit: contain;
+}
+
+body{
+    background-color: #9fa6d4;
+}
+
+#navbar{
+    color: green;
+}
+
+#info3 {
+    margin-left : 30px;
+    margin-top: 30px;
+}
+
+#info1 {
+    margin-left : 30px;
+}
+
+.d-block w-100{
+    object-fit: contain;
+    aspect-ratio: 3/2;
+}
+
+.navbar{
+    background-color: #9fa6d4;
+}
+
+#button-color{
+    background-color: #555553;
+    color: #92c1d7;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    color: #3a46a8;
+    font-weight: 700;
+}
+
+#--Principles--{
+    background-color: #9fa6d4;
+}
+
+.category-con {
+	text-align: center;
+	margin: 20px 0;
+	padding: 0;
+  
+}
+
+.category-con li {
+	box-shadow: 5px 5px 5px 0 rgba(204, 204, 204, 0.1);
+	background-size: cover;
+  border-radius:3px;
+	background-position: center;
+	display: inline-block;
+	width: 180px;
+	margin: 5px;
+	list-style: none;
+	vertical-align: top;
+  transition: all 0.3s ease-in-out;
+}
+
+.category-con li:hover{
+   -webkit-box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.2);
+  transform: translate3d(-4px, -4px, 0px);
+  transition: all 200ms linear 0ms;
+}
+
+.category-con li a {
+  
+	padding: 10px 0;
+	width: 180px;
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	position: relative;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.category-con .category-box-icon {
+	margin: 0 auto;
+}
+
+.category-con .category-box-icon img {
+	height: 40px;
+	width: auto;
+	padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.category-con .category-box-icon{
+  height: 70px;
+	width: 70px;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 100px
+}
+.category-con .category-box-title {
+	min-height: 60px;
+}
+.category-con .category-box-title h3 {
+	margin: 15px 0px 0px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000
+}
+.category-con .tint1 {
+	background: #fefefe;
+}
+.category-con .tint1:hover {
+	background: #fff;
+}
+@media screen and (max-width: 464px) {
+.category-con li,.category-con li a{ width:160px !important}
+.category-con .category-box-title h3{ font-size:15px !important; margin:10px 5px !important}
+.category-con .category-box-title{ min-height:60px !important}
+}
+@media screen and (max-width: 420px) {
+.category-con .category-box-title{ min-height:50px !important}
+}
+
+@media screen and (max-width: 384px) {
+.category-con li,.category-con li a{ width:150px !important}
+}
+@media screen and (max-width: 365px) {
+.category-con li,.category-con li a{ width:140px !important}
+.category-con .category-box-title h3{ font-size:13px !important}
+.category-con li,.category-con li a{ width:120px !important}
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Layout</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Dashboard</a>
+        </div>
+    </nav>
+    <div class="dashboard">
+        <h1>Dashboard</h1>
+    </div>
+    <div class="timeline-section">
+        <h2>Timeline</h2>
+        <div class="filters">
+            <select name="timeline-filter" id="timeline-filter">
+                <option value="all">All</option>
+                <option value="overdue">Overdue</option>
+                <option value="due-date">Due date</option>
+                <option value="next">Next</option>
+                <option value="7-days">7 days</option>
+                <option value="30-days">30 days</option>
+                <option value="3-months">Next 3 months</option>
+                <option value="6-months">Next 6 months</option>
+            </select>
+            <select name="sort-filter" id="sort-filter">
+                <option value="date">Sort by dates</option>
+                <option value="courses">Sort by courses</option>
+            </select>
+            <input type="text" placeholder="Search by activity type or name" id="search-box">
+        </div>
+    </div>
+    <div class = "cal">
+        <h2> Calendar </h2>
+    <div class="calendar-navigation">
+        <button id="prev-month">&lt;</button>
+        <span id="month-year"></span>
+        <button id="next-month">&gt;</button>
+    </div>
+    <div class="calendar-grid">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+        <!-- Dates will be filled in here by JavaScript -->
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Your Website</p>
+        </div>
+    </footer>
+<script src = "dashboard.js"></script>       
+</body>
+</html>

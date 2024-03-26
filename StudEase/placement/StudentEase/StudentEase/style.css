@@ -1,0 +1,110 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #AF0E2E;
+    color: white;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #AF0E2E;
+    padding: 20px 0;
+}
+
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: palegoldenrod;
+}
+
+/* Landing Page */
+#landing {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#landing h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#landing p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#landing .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#landing .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.bi-telephone {
+    font-size: 24px; /* Adjust the font size as per your requirement */
+}
+
+.dash {
+    color : white;
+}
+
+.login-icon {
+    font-size: 24px; /* Adjust the size as needed */
+    line-height: 50px; /* Adjust the line height to vertically center */
+    color: white; /* Set the color */
+    margin-left: 10px; /* Add margin for spacing */
+}
+
+  

@@ -1,0 +1,73 @@
+/* Custom Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f953c6, #b91d73);
+    color: #fff;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+/* Full-height container */
+.vh-100 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-outline {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-outline input {
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 0.5rem;
+    outline: none;
+    width: 100%;
+}
+
+.form-outline input:focus {
+    border-bottom: 2px solid #fff;
+}
+
+.form-outline label {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
+}
+
+.form-outline input:focus + label,
+.form-outline input:not(:placeholder-shown) + label {
+    top: -1rem;
+    left: 0;
+    font-size: 0.75rem;
+    color: #fff;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-light:hover {
+    color: #343a40;
+    background-color: #fff;
+}
